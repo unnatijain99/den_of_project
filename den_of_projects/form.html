@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class=" p-3 mb-2 bg-warning text-dark">
+        <h1 class="h1-respnsive font-weight-bold text-center my-4">Contact us</h1>
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to 
+            you within a matter of hours to help you.
+        </p>
+
+        <div class="container ">
+            <div class="col-md-12 jumbotron">
+                <input type="text" name="name" id="name" class="form-control">
+                <label for="name" class="">Name</label>
+            </div>
+
+
+             <div class="col-md-12  jumbotron">
+                <input type="text" id="email" name="email" class="form-control">
+                <label for="email" class="">Your email</label>
+            </div>
+
+            <div class="col-md-12  jumbotron ">
+                <input type="tel" id="phone-number" name="phone-number" class="form-control">
+                <label for="phone-number" class="">Telephone</label>
+            </div>  
+
+            <div class="col-md-8 jumbotron">
+                <label for="contactformcontrolselect">subject</label>
+                <select name="subject" class="form-control" id="contactformcontrolselect">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </select>
+            </div>
+            <div class="col-md-8 jumbotron">
+                <label for="countrylistselect">Country</label>
+                <select class="selectpicker countrypicker"></select>
+            </div>
+
+                  <div class="col-md-12 jumbotron">
+                        <textarea name="message" id="message" type="text"  rows="2" class="form-control md-textarea">
+                            textarea
+                        </textarea>
+                        <label for="message">Your message</label>
+                    </div>
+            </div>
+         </form>
+
+         <div class="text-center text-md-left">
+             <a href="#" class="btn btn-primary" >Send</a>
+         </div>
+         <div class="status"></div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
